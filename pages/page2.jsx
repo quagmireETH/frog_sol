@@ -9,17 +9,17 @@ function page2() {
           Coq Inu is not your average <br /> meme coin - it is a way of life.
         </p>
       </div>
-      <div className="flex justify-evenly items-center py-14">
-        <p className="text-center">
-          <span className="font-bold text-2xl">TOKENOMICS</span> <br />
-          69.420T $COQ <br />
-          No Allocations <br />
-          No Presale <br />
-          No Taxes <br />
-          No BS <br />
-          0x420FcA0121DC28039145009570975747295f2329
-        </p>
-        <div>
+      <div className="flex justify-center items-center py-14">
+        <div className="flex flex-col justify-center items-start mr-28">
+        <p className="text-center font-bold text-3xl mb-10 underline">TOKENOMICS</p>
+        <li className="text-lg mb-1">69.420T $Croak</li>
+        <li className="text-lg mb-1">10% Team </li>
+        <li className="text-lg mb-1">5% Marketing </li>
+        <li className="text-lg mb-1">No Presale</li>
+        <li className="text-lg mb-1">No Taxes</li>
+        <li className="text-lg mb-1">No BS</li>
+        </div>
+        <div className="-mr-14">
           <img className="w-[450px]" src="/frog1.jpg" alt="" />
         </div>
       </div>
