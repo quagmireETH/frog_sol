@@ -15,12 +15,12 @@ export default function Home() {
 
         <div className="w-96 flex justify-center items-center flex-col">
           <div className="">
-            <p className="bg-purple-500 rounded-md text-4xl px-2">
+            <p className="bg-white rounded-md text-4xl px-2 py-0.5">
               THE <span className="text-green-500 font-bold">MEME COIN</span> OF
             </p>
-            <p className="bg-purple-500 rounded-md mt-3 text-4xl flex items-center px-2">
-              THE <span className="text-green-500 font-bold">CHAD CHAIN</span>
-              <img className="w-8 mt-1 ml-1" src="/Solana_logo.png" alt="" />
+            <p className="bg-white rounded-md mt-3 text-4xl flex items-center px-2 py-0.5">
+              THE <span className="text-green-500 font-bold ml-2.5">CHAD CHAIN</span>
+              <img className="w-8 mt-1 ml-2" src="/Solana_logo.png" alt="" />
             </p>
           </div>
           <div className="my-8 bg-white rounded-md py-1 px-2">
