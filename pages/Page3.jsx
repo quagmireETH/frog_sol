@@ -43,7 +43,7 @@ function Page3() {
       </div>
 
       <div className="flex justify-center items-center py-8">
-        <div className="border-2 border-green-500 flex justify-center items-center rounded-lg py-1 px-4">
+        <div className="border-4 border-green-500 flex justify-center items-center rounded-lg py-1 px-4">
           <img className="w-10 mr-3" src="/Solana_logo.png" alt="" />
           <p className="text-center">
             Powered by <br />
