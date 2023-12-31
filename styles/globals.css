@@ -2,26 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #F0F3F0;
+  overflow-x: hidden;
+}
+
+button {
+  position: relative;
+  z-index: 10;
+}
+
+button::before,
+button::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: transform 0.3s ease-in-out;
+}
+
+button::before {
+  /* Black border effect */
+  top: -2px; /* same as border width */
+  left: -2px; /* same as border width */
+  right: -2px; /* same as border width */
+  bottom: -2px; /* same as border width */
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+button::after {
+  /* White background effect */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+button:hover::before,
+button:hover::after {
+  transform: scaleX(1);
 }
