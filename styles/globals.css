@@ -109,3 +109,13 @@ body {
     padding: 13px 125px;
   }
 }
+
+.hoverEffect {
+  transition: color 0.3s ease;
+  margin-bottom: 5px;
+}
+
+.hoverEffect:hover {
+  color: blue; /* Change color on hover */
+  cursor: pointer;
+}
