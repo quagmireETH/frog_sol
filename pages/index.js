@@ -27,9 +27,9 @@ export default function Home() {
             <p className="text-lg">Get Some $COQ INU</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <button class="button-50">Trader Joe</button>
-            <button class="button-50">Dextools</button>
-            <button class="button-50">Birdeye</button>
+            <button class="button-51">Trader Joe</button>
+            <button class="button-51">Dextools</button>
+            <button class="button-51">Birdeye</button>
           </div>
           <div className="flex justify-evenly items-center mt-10">
             <div className="bg-purple-500 cursor-pointer mr-10 p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">

@@ -2,7 +2,7 @@ import React from "react";
 
 function page2() {
   return (
-    <div className="mt-32">
+    <div className="mt-28">
       <div className="bg-green-500 flex justify-center items-center py-16">
         <p className="text-center text-white font-bold text-lg">
           Born from collective frenship, deeply rooted in memetics and humor,
