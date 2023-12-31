@@ -13,18 +13,18 @@ export default function Home() {
           alt=""
         />
 
-        <div className="w-96 flex justify-center items-center flex-col">
-          <div className="">
-            <p className="bg-white rounded-md text-4xl px-2 py-0.5">
+        <div className="w-[480px] flex justify-center items-center flex-col">
+          <div>
+            <p className="bg-white rounded-md text-5xl px-3 py-1.5">
               THE <span className="text-green-500 font-bold">MEME COIN</span> OF
             </p>
-            <p className="bg-white rounded-md mt-3 text-4xl flex items-center px-2 py-0.5">
+            <p className="bg-white rounded-md mt-3 text-5xl flex items-center px-3 py-1.5">
               THE <span className="text-green-500 font-bold ml-2.5">CHAD CHAIN</span>
               <img className="w-8 mt-1 ml-2" src="/Solana_logo.png" alt="" />
             </p>
           </div>
           <div className="my-8 bg-white rounded-md py-1 px-2">
-            <p className="text-lg">Get Some $COQ INU</p>
+            <p className="text-xl">Get Some $COQ INU</p>
           </div>
           <div className="flex flex-col justify-center items-center">
             <button class="button-51">Trader Joe</button>

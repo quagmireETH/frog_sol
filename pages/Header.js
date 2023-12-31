@@ -7,7 +7,7 @@ function Header() {
         <img className="absolute w-44 -mt-4 ml-20" src="/token.png" alt="" />
       </div>
       <div className="flex justify-end mr-10">
-        <button className="button-50">
+        <button className="cursor-pointer text-lg border-4 rounded-2xl px-6 py-1 text-white active:text-black border-[#ffffff] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
           Buy Now
         </button>
       </div>
