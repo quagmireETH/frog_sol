@@ -6,7 +6,7 @@ function Header() {
     <div className="bg-green-500 py-6">
       <div>
         <img
-          className="absolute w-44 -mt-4 ml-20 max-[950px]:ml-5 max-[800px]:ml-8 max-[800px]:w-20"
+          className="absolute w-32 rounded-full  ml-20 max-[950px]:ml-5 max-[800px]:ml-8 max-[800px]:w-20 max-[800px]:-mt-5"
           src="/token.png"
           alt=""
         />
