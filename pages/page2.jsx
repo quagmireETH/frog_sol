@@ -6,7 +6,7 @@ function page2() {
       <div className="bg-green-500 flex justify-center items-center py-16">
         <p className="text-center text-white font-bold text-lg px-4">
           Born from collective frenship, deeply rooted in memetics and humor,
-          Croack is not your average <br /> meme coin - it is a way of life.
+          Croak is not your average <br /> meme coin - it is a way of life.
         </p>
       </div>
       <div className="flex justify-center items-center py-14 max-[850px]:flex-col">

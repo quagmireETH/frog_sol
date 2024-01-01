@@ -63,7 +63,7 @@ function Page3() {
           <p className="text-center text-white text-lg">
             <span className="font-bold text-3xl">DISCLAIMERS</span> <br />
             <br />
-            $Croack is a meme coin with no intrinsic value or expectation of
+            $Croak is a meme coin with no intrinsic value or expectation of
             financial return. There is <br /> no formal team or roadmap. The
             coin is for entertainment purposes only.
           </p>
