@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 function Page3() {
   const texts1 = [
@@ -11,11 +12,8 @@ function Page3() {
     "CoinEx",
   ];
 
-  const texts2 = ["Trader Joe", "Dexalot", "Pharoah", "Birdeye"];
-
   // State to hold which text is currently hovered
   const [hoveredText1, setHoveredText1] = useState(null);
-  const [hoveredText2, setHoveredText2] = useState(null);
 
   return (
     <div>
@@ -27,8 +25,8 @@ function Page3() {
             {texts1.map((text, index) => (
               <p
                 key={index}
-                onMouseEnter={() => setHoveredText1(index)} // Set the hovered text for list 1
-                onMouseLeave={() => setHoveredText1(null)} // Reset on mouse leave for list 1
+                onMouseEnter={() => setHoveredText1(index)}
+                onMouseLeave={() => setHoveredText1(null)}
                 className="hoverEffect"
               >
                 {hoveredText1 === index ? "Coming Soon..." : text}
@@ -38,18 +36,18 @@ function Page3() {
           <div className="ml-28 mr-2 text-center">
             <div className="w-28">
               <p className="font-bold mb-2 text-lg underline">DEX</p>
-              {texts2.map((text, index) => (
-                <p
-                  key={index}
-                  onMouseEnter={() => setHoveredText2(index)} // Set the hovered text for list 2
-                  onMouseLeave={() => setHoveredText2(null)} // Reset on mouse leave for list 2
-                  className="hoverEffect"
-                >
-                  {hoveredText2 === index ? "Coming Soon..." : text}
-                </p>
-              ))}
+              <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
+                <p className="hover:underline">Birdeye</p>
+              </Link>
+              <Link href="https://raydium.io/swap/">
+                <p className="hover:underline">Raydium</p>
+              </Link>
             </div>
           </div>
+        </div>
+
+        <div className="absolute right-20 max-[925px]:right-10 max-[830px]:hidden">
+          <img className="w-44" src="/IMG_5040.png" alt="" />
         </div>
       </div>
 
@@ -60,12 +58,16 @@ function Page3() {
           alt=""
         />
         <div className="border-2 rounded-xl py-6 pr-16 pl-[12%] -ml-64 max-[1100px]:ml-0 max-[1100px]:pl-16 max-[850px]:pl-4 max-[850px]:pr-4">
-          <p className="text-center text-white text-lg">
+          <p className="text-center text-white text-lg max-[530px]:text-base">
             <span className="font-bold text-3xl">DISCLAIMERS</span> <br />
             <br />
-            $Croak is a meme coin with no intrinsic value or expectation of
-            financial return. There is <br /> no formal team or roadmap. The
-            coin is for entertainment purposes only.
+            $CROAK is a meme coin crafted purely for entertainment, devoid of
+            any intrinsic value or financial expectations. It thrives on the
+            collaborative efforts of a passionate group of friends associated
+            with BAYC/MAYC & AZUKI, dedicated to creating a lighthearted and
+            amusing experience with no formal roadmap. Join us in the world of
+            fun and laughter, where the value lies in the enjoyment of the
+            community and the entertaining spirit of the coin.
           </p>
         </div>
       </div>

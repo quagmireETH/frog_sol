@@ -1,5 +1,5 @@
 import React from "react";
-import HoverableButtonHeader from "./HoverableButtonHeader";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -12,7 +12,11 @@ function Header() {
         />
       </div>
       <div className="flex justify-end mr-10">
-        <HoverableButtonHeader originalText="Buy Now" hoverText="Coming Soon..." />
+        <Link href="https://raydium.io/swap/">
+          <button className="cursor-pointer text-lg border-4 rounded-2xl px-6 py-1 border-[#ffffff] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
+            Buy Now
+          </button>
+        </Link>
       </div>
     </div>
   );

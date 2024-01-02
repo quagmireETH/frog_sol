@@ -3,10 +3,9 @@ import HoverableButton from "./HoverableButton";
 import Header from "./Header";
 import Page2 from "./page2";
 import Page3 from "./Page3";
+import Link from "next/link";
 
 export default function Home() {
-  const texts1 = ["Text 1", "Text 2", "Text 3"];
-
   return (
     <div>
       <Header />
@@ -34,31 +33,28 @@ export default function Home() {
             <p className="text-xl">Get Some $Croak</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <HoverableButton
-              originalText="Trader Joe"
-              hoverText="Coming Soon..."
-            />
-            <HoverableButton
-              originalText="Dextools"
-              hoverText="Coming Soon..."
-            />
-            <HoverableButton
-              originalText="Birdeye"
-              hoverText="Coming Soon..."
-            />
+            <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
+              <button className="cursor-pointer text-lg border-4 rounded-2xl px-24 py-1.5 mb-4 border-[#ffffff] bg-[#22C55E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
+                Birdeye
+              </button>
+            </Link>
           </div>
           <div className="flex justify-evenly items-center mt-10">
             <div className="bg-purple-500 cursor-pointer mr-10 p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
               <img className="w-10" src="/solscan.png" alt="" />
             </div>
 
-            <div className="bg-purple-500 cursor-pointer mr-10 p-3 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
-              <img className="w-10" src="/tgAsset_22.svg" alt="" />
-            </div>
+            <Link href="https://t.me/croakportal">
+              <div className="bg-purple-500 cursor-pointer mr-10 p-3 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
+                <img className="w-10" src="/tgAsset_22.svg" alt="" />
+              </div>
+            </Link>
 
-            <div className="bg-purple-500 cursor-pointer p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
-              <img className="w-10" src="/twitter.svg" alt="" />
-            </div>
+            <Link href="https://x.com/croakinu">
+              <div className="bg-purple-500 cursor-pointer p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
+                <img className="w-10" src="/twitter.svg" alt="" />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

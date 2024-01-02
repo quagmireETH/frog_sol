@@ -27,7 +27,8 @@ function page2() {
       </div>
       <div className="bg-green-500 flex justify-center items-center py-16">
         <p className="text-center text-white font-bold text-lg px-4">
-          Any Web3 journey is incomplete without some Croak Inu.
+          Embarking on a Web3 journey feels truly enriched with a touch of Croak
+          Inu.
         </p>
       </div>
     </div>
