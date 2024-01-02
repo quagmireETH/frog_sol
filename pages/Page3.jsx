@@ -45,19 +45,10 @@ function Page3() {
             </div>
           </div>
         </div>
-
-        <div className="absolute right-20 max-[925px]:right-10 max-[830px]:hidden">
-          <img className="w-44" src="/IMG_5040.png" alt="" />
-        </div>
       </div>
 
-      <div className="bg-green-500 flex justify-center items-center py-12 max-[1100px]:py-20">
-        <img
-          className="relative w-80 -left-10 rotate-12 max-[1200px]:-left-20 max-[1100px]:hidden"
-          src="/frog2.png"
-          alt=""
-        />
-        <div className="border-2 rounded-xl py-6 pr-16 pl-[12%] -ml-64 max-[1100px]:ml-0 max-[1100px]:pl-16 max-[850px]:pl-4 max-[850px]:pr-4">
+      <div className="bg-green-500 flex justify-center items-center px-20 py-12 max-[1100px]:py-20">
+        <div className="border-2 rounded-xl py-6 px-16 max-[1100px]:pl-16 max-[850px]:pl-4 max-[850px]:pr-4">
           <p className="text-center text-white text-lg max-[530px]:text-base">
             <span className="font-bold text-3xl">DISCLAIMERS</span> <br />
             <br />

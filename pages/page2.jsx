@@ -22,7 +22,7 @@ function page2() {
           <li className="text-lg mb-1">No BS</li>
         </div>
         <div className="-mr-14">
-          <img className="w-[450px] max-[525px]:w-72" src="/frog1.jpg" alt="" />
+          <img className="w-[450px] max-[525px]:w-72" src="/IMG_5040.png" alt="" />
         </div>
       </div>
       <div className="bg-green-500 flex justify-center items-center py-16">
