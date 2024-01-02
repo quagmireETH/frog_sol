@@ -40,9 +40,11 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex justify-evenly items-center mt-10">
-            <div className="bg-purple-500 cursor-pointer mr-10 p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
-              <img className="w-10" src="/solscan.png" alt="" />
-            </div>
+            <Link href="https://solscan.io/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV">
+              <div className="bg-purple-500 cursor-pointer mr-10 p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
+                <img className="w-10" src="/solscan.png" alt="" />
+              </div>
+            </Link>
 
             <Link href="https://t.me/croakportal">
               <div className="bg-purple-500 cursor-pointer mr-10 p-3 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
