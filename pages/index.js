@@ -33,11 +33,20 @@ export default function Home() {
             <p className="text-xl">Get Some $Croak</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
+            <Link href="https://raydium.io/swap/">
               <button className="cursor-pointer text-lg border-4 rounded-2xl px-24 py-1.5 mb-4 border-[#ffffff] bg-[#22C55E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
+                Raydium
+              </button>
+            </Link>
+            <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
+              <button className="cursor-pointer text-lg border-4 rounded-2xl px-24 py-1.5 mt-4 mb-8 border-[#ffffff] bg-[#22C55E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
                 Birdeye
               </button>
             </Link>
+            <HoverableButton
+              originalText="Dexlabs "
+              hoverText="Coming Soon..."
+            />
           </div>
           <div className="flex justify-evenly items-center mt-10">
             <Link href="https://solscan.io/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV">
