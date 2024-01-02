@@ -43,10 +43,11 @@ export default function Home() {
                 Raydium
               </button>
             </Link>
-            <HoverableButton
-              originalText="Dexlabs "
-              hoverText="Coming Soon..."
-            />
+            <Link href="">
+              <button className="cursor-pointer text-lg border-4 rounded-2xl px-24 py-1.5 mb-4 border-[#ffffff] bg-[#22C55E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
+                Dexlabs
+              </button>
+            </Link>
           </div>
           <div className="flex justify-evenly items-center mt-10">
             <Link href="https://solscan.io/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV">
