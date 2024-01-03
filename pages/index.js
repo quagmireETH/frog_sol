@@ -30,7 +30,7 @@ export default function Home() {
             </p>
           </div>
           <div className="my-8 bg-white rounded-md py-1 px-2">
-            <p className="text-xl">Get Some $Croak</p>
+            <p className="text-xl">Get Some $CROAK</p>
           </div>
           <div className="flex flex-col justify-center items-center">
             <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
@@ -38,7 +38,7 @@ export default function Home() {
                 Birdeye
               </button>
             </Link>
-            <Link href="https://raydium.io/swap/">
+            <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV&inputAmount=0&fixed=in">
               <button className="cursor-pointer text-lg border-4 rounded-2xl px-24 py-1.5 mb-4 border-[#ffffff] bg-[#22C55E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
                 Raydium
               </button>
@@ -56,7 +56,7 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="https://t.me/croakportal">
+            <Link href="https://t.me/croakinuportal">
               <div className="bg-purple-500 cursor-pointer mr-10 p-3 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
                 <img className="w-10" src="/tgAsset_22.svg" alt="" />
               </div>
