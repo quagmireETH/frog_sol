@@ -39,7 +39,7 @@ function Page3() {
               <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
                 <p className="hover:underline">Birdeye</p>
               </Link>
-              <Link href="https://raydium.io/swap/">
+              <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV&inputAmount=0&fixed=in">
                 <p className="hover:underline">Raydium</p>
               </Link>
             </div>
@@ -53,10 +53,8 @@ function Page3() {
             <span className="font-bold text-3xl">DISCLAIMERS</span> <br />
             <br />
             $CROAK is a meme coin crafted purely for entertainment, devoid of
-            any intrinsic value or financial expectations. It thrives on the
-            collaborative efforts of a passionate group of friends associated
-            with BAYC/MAYC & AZUKI, dedicated to creating a lighthearted and
-            amusing experience with no formal roadmap. Join us in the world of
+            any intrinsic value or financial expectations. No formal team or roadmap but dedicated to creating a lighthearted and
+            amusing experience. Join us in the world of
             fun and laughter, where the value lies in the enjoyment of the
             community and the entertaining spirit of the coin.
           </p>
