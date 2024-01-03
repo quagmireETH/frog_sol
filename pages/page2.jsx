@@ -6,7 +6,7 @@ function page2() {
       <div className="bg-green-500 flex justify-center items-center py-16">
         <p className="text-center text-white font-bold text-lg px-4">
           Born from collective frenship, deeply rooted in memetics and humor,
-          Croak is not your average <br /> meme coin - it is a way of life.
+          CROAK is not your average <br /> meme coin - it is a way of life.
         </p>
       </div>
       <div className="flex justify-center items-center py-14 max-[850px]:flex-col">
@@ -14,7 +14,7 @@ function page2() {
           <p className="text-center font-bold text-3xl mb-10 underline">
             TOKENOMICS
           </p>
-          <li className="text-lg mb-1">69.420T $Croak</li>
+          <li className="text-lg mb-1">69.420T $CROAK</li>
           <li className="text-lg mb-1">10% Team </li>
           <li className="text-lg mb-1">5% Marketing </li>
           <li className="text-lg mb-1">No Presale</li>
@@ -27,7 +27,7 @@ function page2() {
       </div>
       <div className="bg-green-500 flex justify-center items-center py-16">
         <p className="text-center text-white font-bold text-lg px-4">
-          Embarking on a Web3 journey feels truly enriched with a touch of Croak
+          Embarking on a Web3 journey feels truly enriched with a touch of CROAK
           Inu.
         </p>
       </div>
