@@ -33,12 +33,12 @@ export default function Home() {
             <p className="text-xl">Get Some $CROAK</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
+            <Link href="https://birdeye.so/">
               <button className="cursor-pointer text-lg border-4 rounded-2xl px-24 py-1.5 mt-4 mb-8 border-[#ffffff] bg-[#22C55E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
                 Birdeye
               </button>
             </Link>
-            <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV&inputAmount=0&fixed=in">
+            <Link href="https://raydium.io/">
               <button className="cursor-pointer text-lg border-4 rounded-2xl px-24 py-1.5 mb-4 border-[#ffffff] bg-[#22C55E] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
                 Raydium
               </button>
@@ -50,19 +50,19 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex justify-evenly items-center mt-10">
-            <Link href="https://solscan.io/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV">
+            <Link href="https://solscan.io/">
               <div className="bg-purple-500 cursor-pointer mr-10 p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
                 <img className="w-10" src="/solscan.png" alt="" />
               </div>
             </Link>
 
-            <Link href="https://t.me/croakinuportal">
+            <Link href="https://discord.gg/zzncW5gkrp">
               <div className="bg-purple-500 cursor-pointer mr-10 p-3 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
                 <img className="w-10" src="/tgAsset_22.svg" alt="" />
               </div>
             </Link>
 
-            <Link href="https://x.com/croakinu">
+            <Link href="https://x.com/croakinuNFT">
               <div className="bg-purple-500 cursor-pointer p-2 max-[700px]:w-14 max-[700px]:h-14 max-[415px]:w-12 max-[415px]:h-12 rounded-lg shadow-lg shadow-black hover:translate-y-2 hover:shadow-none duration-100">
                 <img className="w-10" src="/twitter.svg" alt="" />
               </div>
