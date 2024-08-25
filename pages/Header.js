@@ -12,7 +12,7 @@ function Header() {
         />
       </div>
       <div className="flex justify-end mr-10">
-        <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV&inputAmount=0&fixed=in">
+        <Link href="https://raydium.io/swap/">
           <button className="cursor-pointer text-lg border-4 rounded-2xl px-6 py-1 border-[#ffffff] hover:bg-[rgba(24,163,75,0.7)] active:bg-[#ffffff]">
             Buy Now
           </button>
