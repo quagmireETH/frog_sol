@@ -17,7 +17,7 @@ function page2() {
           <li className="text-lg mb-1">69.420T $CROAK</li>
           <li className="text-lg mb-1">10% Team </li>
           <li className="text-lg mb-1">5% Marketing </li>
-          <li className="text-lg mb-1">No Presale</li>
+          <li className="text-lg mb-1">30% Airdrop Holders </li>
           <li className="text-lg mb-1">No Taxes</li>
           <li className="text-lg mb-1">No BS</li>
         </div>
