@@ -36,10 +36,10 @@ function Page3() {
           <div className="ml-28 mr-2 text-center">
             <div className="w-28">
               <p className="font-bold mb-2 text-lg underline">DEX</p>
-              <Link href="https://birdeye.so/token/36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV?chain=solana">
+              <Link href="https://birdeye.so/">
                 <p className="hover:underline">Birdeye</p>
               </Link>
-              <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=36idekgAhUyKHfDmWvt8SxLKcfjBfeUNs7ToADdBPKVV&inputAmount=0&fixed=in">
+              <Link href="https://raydium.io/swap/">
                 <p className="hover:underline">Raydium</p>
               </Link>
             </div>
